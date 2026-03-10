@@ -866,7 +866,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   z-index: 9999;
-  width: calc(100% - 32px);
+  width: calc(100vw - 32px);
   max-width: 358px;
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
@@ -1144,10 +1144,6 @@ body {
 
 /* Mobile */
 @media (max-width: 390px) {
-  .page {
-    max-width: 100%;
-  }
-  
   .hero-name {
     font-size: 48px;
   }
