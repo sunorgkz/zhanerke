@@ -1155,16 +1155,8 @@ body {
   .hero-title {
     font-size: 24px;
   }
-  
-  .rsvp-card-container {
-    left: 16px;
-    right: 16px;
-    width: auto;
-    max-width: none;
-    transform: none;
-  }
-  
+
   .rsvp-card-container.hidden {
-    transform: translateY(120px);
+    transform: translateX(-50%) translateY(120px);
   }
 }
