@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Қыз ұзату</title>
+  <link rel="stylesheet" href="css/vendor/tilda-grid-3.0.min.css">
+  <link rel="stylesheet" href="css/vendor/fonts-tildasans.css">
+  <link rel="stylesheet" href="css/vendor/css2">
+  <link rel="stylesheet" href="css/vendor/212a323d2fb6c044.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="invitation-modal">
+    <div id="modal-content">
+      <div class="modal-deco modal-deco-1"></div>
+      <div class="modal-deco modal-deco-2"></div>
+      <div class="modal-inner">
+        <div id="star-icon">★</div>
+        <h2 id="invitation-title">Құттықтаймыз!</h2>
+        <p id="invitation-text">Сіз қонақ ретінде<br>шақырылдыңыз</p>
+        <button id="view-invitation">♪ Шақыруды көру</button>
+      </div>
+    </div>
+  </div>
+
+  <audio id="bg-sound" preload="auto" loop>
+    <source src="https://shaqyru.kz/sounds/1687438038.mp3" type="audio/mpeg">
+  </audio>
+
+  <main class="page">
+    <section class="hero" id="hero">
+      <div class="hero-bg" style="background-image: url('images/photo.jpeg')"></div>
+      <div class="hero-decor hero-decor-bottom"></div>
+      <div class="hero-content">
+        <h1 class="hero-name">Жанерке</h1>
+        <h2 class="hero-title">Қыз ұзату</h2>
+      </div>
+    </section>
+
+    <section class="music-circle-section">
+      <button class="music-circle-btn" id="hero-music-btn" aria-label="Әуенді қосу">
+        <svg class="music-circle-svg" viewBox="0 0 128 128" aria-hidden="true">
+          <defs>
+            <path id="circlePathStatic" d="M 64,64 m -42,0 a 42,42 0 1,1 84,0 a 42,42 0 1,1 -84,0" />
+          </defs>
+          <text class="music-circle-text">
+            <textPath href="#circlePathStatic" startOffset="0%">
+              ӘУЕНДІ ҚОСУ • ӘУЕНДІ ҚОСУ • ӘУЕНДІ ҚОСУ •
+            </textPath>
+          </text>
+        </svg>
+        <span class="music-play-icon">
+          <svg class="music-play-icon-svg" viewBox="0 0 20 20" aria-hidden="true">
+            <path d="M6.3 2.841A1.5 1.5 0 0 0 4 4.11v11.78a1.5 1.5 0 0 0 2.3 1.269l9.344-5.89a1.5 1.5 0 0 0 0-2.538L6.3 2.84z" fill="currentColor" />
+          </svg>
+        </span>
+      </button>
+      <div class="music-flower-wrapper">
+        <img src="images/flower-music.png.webp" alt="" class="music-flower-image">
+      </div>
+    </section>
+
+    <section class="invitation-section">
+      <div class="invitation-text uppercase-text">
+        <div class="text-line greeting-line">Құрметті қонақтар!</div>
+        <div class="text-line uppercase-text">ҚҰРМЕТТІ АҒАЙЫН-ТУЫС, БАУЫРЛАР, ҚҰДА-ЖЕКЖАТ, НАҒАШЫ-ЖИЕН, ДОС-ЖАРАНДАР, ӘРІПТЕСТЕР, КӨРШІЛЕР!</div>
+        <div class="text-line uppercase-text">Сіз(дер)ді қызымыз</div>
+        <div class="text-line uppercase-text"></div>
+        <div class="text-line name-line uppercase-text"> <span class="celebrant-name">Жәнеркенің</span> </div>
+        <div class="text-line uppercase-text">ұзату тойына арналған салтанатты ақ дастарханымыздың қадірлі қонағы болуға шақырамыз.</div>
+      </div>
+    </section>
+
+    <section class="invite-photo-section">
+      <img src="images/photo-2.jpeg" alt="" class="invite-photo-image">
+    </section>
+
+    <section class="event-section">
+      <div class="event-info-wrapper">
+        <div class="event-card event-card-full">
+          <div class="event-block hosts-block">
+            <div class="hosts-icon" aria-hidden="true">
+              <span class="hosts-icon-inner">i</span>
+              <span class="hosts-icon-corner"></span>
+            </div>
+            <div class="section-label small-label">ТОЙ ИЕЛЕРІ</div>
+            <div class="hosts-name">Жұмамұрат-Бану</div>
+          </div>
+
+          <div class="event-block date-block">
+            <div class="section-label">ТОЙ КҮНІ</div>
+            <div class="date-card">
+              <div class="date-flower"></div>
+              <div class="date-inner">
+                <div class="event-weekday">СЕНБІ</div>
+                <div class="event-date-day">9</div>
+                <div class="event-date-underline"></div>
+                <div class="event-date-month">Мамыр 2026</div>
+                <div class="event-time">18:00</div>
+              </div>
+              <div class="sparkle-wrapper" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="sparkle-decoration">
+                  <path d="M16 18a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2zm0 -12a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2zm-7 12a6 6 0 0 1 6 -6a6 6 0 0 1 -6 -6a6 6 0 0 1 -6 6a6 6 0 0 1 6 6z" />
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="event-block countdown-block">
+            <div class="section-label">ҚАЛҒАН УАҚЫТ</div>
+            <div class="countdown" id="countdown">
+              <div class="counter-item">
+                <span class="counter-value" id="days">00</span>
+                <span class="counter-label">КҮН</span>
+              </div>
+              <div class="counter-item">
+                <span class="counter-value" id="hours">00</span>
+                <span class="counter-label">САҒАТ</span>
+              </div>
+              <div class="counter-item">
+                <span class="counter-value" id="minutes">00</span>
+                <span class="counter-label">МИН</span>
+              </div>
+              <div class="counter-item">
+                <span class="counter-value" id="seconds">00</span>
+                <span class="counter-label">СЕК</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="event-block location-block">
+            <div class="section-label">МЕКЕНЖАЙЫ</div>
+            <div class="location-card">
+              <div class="location-flower"></div>
+              <div class="location-text">
+                <div class="location-city">Ақтөбе</div>
+                <div class="location-place">«HAN SARAI» мейрамханасы</div>
+              </div>
+              <a href="https://go.2gis.com/2EbSX" target="_blank" class="location-map-button">2GIS-те көру</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="calendar-section">
+      <div class="calendar-wrapper">
+        <div class="calendar-flower"></div>
+        <div class="calendar-card">
+          <div class="calendar-month">Қараша 2025</div>
+          <div class="calendar-title">Күнітізбе</div>
+          <div class="calendar-grid">
+            <div class="calendar-weekdays">
+              <span>ДҮ</span><span>СЕ</span><span>СР</span><span>БЕ</span><span>ЖҮ</span><span>СЕ</span><span>ЖЕ</span>
+            </div>
+            <div class="calendar-days" id="calendar-days"></div>
+          </div>
+          <div class="calendar-selected">
+            <span id="calendar-selected-text">22 Қараша</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="rsvp-card-container" id="rsvp-button">
+    <div class="rsvp-card">
+      <h3 class="rsvp-card-title">Қатысуды растау</h3>
+      <p class="rsvp-card-subtitle">ТОЙҒА КЕЛУІҢІЗДІ РАСТАУЫҢЫЗДЫ СҰРАЙМЫЗ</p>
+      <div class="rsvp-buttons">
+        <button class="rsvp-btn rsvp-btn-yes">♥ КЕЛЕМІН</button>
+        <button class="rsvp-btn rsvp-btn-no">✕ КЕЛЕ АЛМАЙМ...</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="rsvp-form-overlay hidden" id="rsvp-form-overlay">
+    <div class="rsvp-form-card">
+      <h3 class="rsvp-form-title">Қатысуды растау</h3>
+      <p class="rsvp-form-subtitle-main">КЕЛУІҢІЗДІ РАСТАУЫҢЫЗДЫ СҰРАЙМЫЗ</p>
+      <div class="rsvp-form-toggle" id="rsvp-toggle">
+        <button type="button" class="rsvp-toggle-option active" data-status="yes">КЕЛЕМІН</button>
+        <button type="button" class="rsvp-toggle-option" data-status="no">КЕЛЕ АЛМАЙМЫН</button>
+      </div>
+      <form id="rsvp-form">
+        <input type="hidden" id="rsvp-status" name="status" value="yes">
+
+        <label class="rsvp-form-field">
+          <span class="rsvp-form-label">Сіздiң аты-жөніңіз</span>
+          <input type="text" id="rsvp-name" name="name" class="rsvp-form-input" required>
+        </label>
+
+        <label class="rsvp-form-field" id="rsvp-guests-field">
+          <span class="rsvp-form-label">Қанша адам болып келесiз (мысалы: 2)</span>
+          <input type="number" id="rsvp-guests" name="guests" class="rsvp-form-input" min="1" step="1">
+        </label>
+
+        <label class="rsvp-form-field">
+          <span class="rsvp-form-label">Тiлектерiңiз (мiндеттi емес)</span>
+          <textarea id="rsvp-wish" name="wish" class="rsvp-form-textarea" rows="3" placeholder="Жылы тiлектерiңiздi жазыңыз..."></textarea>
+        </label>
+
+        <div class="rsvp-form-actions">
+          <button type="button" class="rsvp-form-btn rsvp-form-btn-back" id="rsvp-form-back">← Артқа қайту</button>
+          <button type="submit" class="rsvp-form-btn rsvp-form-btn-submit">Растау →</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p class="footer-text">Асыға күтеміз, тойда жолыққанша!</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
